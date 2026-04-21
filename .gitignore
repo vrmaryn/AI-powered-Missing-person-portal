@@ -1,4 +1,26 @@
+# Sensitive
+.env
+.env.local
+login_config.yml
+
+# Temp/Debug
+Email_test.py
+debug_email.py
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+__pycache__/
 *.pyc
-__pycache__
+resources/
+
+# Virtual env
+.venv/
+venv/
+
+# Database
+*.db
 sqlite_database.db
-classifier.pkl
