@@ -1,0 +1,558 @@
+2026-02-23 19:25:35,180 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 19:25:35,181 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 19:25:35,701 - INFO - Loaded 2 public cases with valid face mesh data
+2026-02-23 19:25:36,281 - INFO - Loaded 4 registered cases with valid face mesh data
+2026-02-23 19:25:36,367 - INFO - Distance for case e6052cd5-5bcc-44b4-b65b-633297f9878d: 0.0
+2026-02-23 19:25:36,371 - INFO - \u2705 MATCH FOUND: Public case e6052cd5-5bcc-44b4-b65b-633297f9878d matches Registered case 571bff49-c978-4066-8d9e-b5727f5c8680 (distance: 0.0)
+2026-02-23 19:29:25,569 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 19:29:25,570 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 19:29:26,107 - INFO - Loaded 2 public cases with valid face mesh data
+2026-02-23 19:29:26,651 - INFO - Loaded 4 registered cases with valid face mesh data
+2026-02-23 19:29:26,653 - INFO - Processing 4 registered cases and 2 public cases
+2026-02-23 19:29:26,723 - INFO - Distance for case ba61e2b2-c211-4735-badd-eb08f068eb5e: 0.0
+2026-02-23 19:29:26,724 - INFO - \u2705 MATCH FOUND: Public case ba61e2b2-c211-4735-badd-eb08f068eb5e matches Registered case 571bff49-c978-4066-8d9e-b5727f5c8680 (distance: 0.0)
+2026-02-23 19:29:26,727 - INFO - Distance for case e6052cd5-5bcc-44b4-b65b-633297f9878d: 0.0
+2026-02-23 19:29:26,729 - INFO - \u2705 MATCH FOUND: Public case e6052cd5-5bcc-44b4-b65b-633297f9878d matches Registered case 571bff49-c978-4066-8d9e-b5727f5c8680 (distance: 0.0)
+2026-02-23 19:29:26,729 - INFO - Matching complete. Found 1 matches
+2026-02-26 18:35:19,557 - INFO - Loaded 2 public cases with valid face mesh data
+2026-02-26 18:35:19,843 - INFO - Loaded 4 registered cases with valid face mesh data
+2026-02-26 18:35:19,844 - INFO - Processing 4 registered cases and 2 public cases
+2026-02-26 18:41:08,319 - INFO - Processing 1 registered cases and 1 public cases
+2026-02-26 18:41:08,328 - INFO - Distance for case b3c961cd-a222-474f-8095-fad4a5d8ad63: 0.4275199621497066
+2026-02-26 18:41:08,334 - INFO - \u2705 MATCH FOUND: Public case b3c961cd-a222-474f-8095-fad4a5d8ad63 matches Registered case 0e7942b0-67ab-4633-821e-1082d01f2162 (distance: 0.4275199621497066)
+2026-02-26 18:41:08,335 - INFO - Matching complete. Found 1 matches
+2026-03-09 00:53:18,032 - INFO - Processing 2 registered cases and 1 public cases
+2026-03-09 00:53:18,038 - INFO - Distance for case 553b32d4-d6f7-4b88-afcd-9475186c13ac: 6.238594384118449
+2026-03-09 00:53:18,038 - INFO - Matching complete. Found 0 matches
+2026-04-08 14:13:39,151 - INFO - Processing 4 registered cases and 2 public cases
+2026-04-08 14:13:39,163 - INFO - Distance for case 553b32d4-d6f7-4b88-afcd-9475186c13ac: 0.4275199621497066
+2026-04-08 14:13:39,170 - INFO - \u2705 MATCH FOUND: Public case 553b32d4-d6f7-4b88-afcd-9475186c13ac matches Registered case 4bab20ea-7ff8-42a4-9096-41878fc12c5d (distance: 0.4275199621497066)
+2026-04-08 14:13:39,173 - INFO - Distance for case d424c2d4-a48d-4805-9a18-002ec0e0e6bc: 1.3580248840026623
+2026-04-08 14:13:39,174 - INFO - \u2705 MATCH FOUND: Public case d424c2d4-a48d-4805-9a18-002ec0e0e6bc matches Registered case 67de2013-7154-4743-a80d-0b888ce52273 (distance: 1.3580248840026623)
+2026-04-08 14:13:39,175 - INFO - Matching complete. Found 2 matches
+2026-04-08 14:47:13,526 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in get_public_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 14:47:13,527 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in get_public_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 14:47:14,337 - INFO - Processing mesh fallback with 2 registered and 1 public cases
+2026-04-08 14:47:14,339 - INFO - Processing mesh fallback with 2 registered and 1 public cases
+2026-04-08 14:47:14,385 - INFO - Distance for case 738c2474-55cd-4c36-bd16-ab3af35fc0dd: 2.3850817238026245
+2026-04-08 14:47:14,388 - INFO - Distance for case 738c2474-55cd-4c36-bd16-ab3af35fc0dd: 2.3850817238026245
+2026-04-08 14:47:14,393 - INFO - MESH FALLBACK MATCH: Public case 738c2474-55cd-4c36-bd16-ab3af35fc0dd -> Registered case d77e59d0-0575-4142-9648-bbec91396c6d (distance: 2.3850817238026245)
+2026-04-08 14:47:14,395 - INFO - MESH FALLBACK MATCH: Public case 738c2474-55cd-4c36-bd16-ab3af35fc0dd -> Registered case d77e59d0-0575-4142-9648-bbec91396c6d (distance: 2.3850817238026245)
+2026-04-08 14:47:14,395 - INFO - Matching complete. Found 1 matches
+2026-04-08 14:47:14,395 - INFO - Matching complete. Found 1 matches
+2026-04-08 14:59:24,085 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in get_public_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 14:59:24,694 - INFO - Processing mesh fallback with 1 registered and 1 public cases
+2026-04-08 14:59:24,697 - INFO - Distance for case 3caa1d0e-c446-4bc5-bda8-3a24c3da0459: 4.379272149862104
+2026-04-08 14:59:24,697 - INFO - Matching complete. Found 0 matches
+2026-04-08 15:06:13,982 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in get_public_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:06:14,584 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in get_registered_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:06:14,585 - INFO - Processing mesh fallback with 2 registered and 1 public cases
+2026-04-08 15:06:14,598 - INFO - Distance for case 3caa1d0e-c446-4bc5-bda8-3a24c3da0459: 0.0
+2026-04-08 15:06:14,602 - INFO - MESH FALLBACK MATCH: Public case 3caa1d0e-c446-4bc5-bda8-3a24c3da0459 -> Registered case 13b7bb89-9743-461b-ad31-5dd396c90fef (distance: 0.0)
+2026-04-08 15:06:14,603 - INFO - Matching complete. Found 1 matches
+2026-04-08 15:19:05,413 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in get_public_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:19:06,015 - INFO - Processing mesh fallback with 1 registered and 1 public cases
+2026-04-08 15:19:06,074 - INFO - Distance for case a26b798b-b3fc-4fe6-92f5-85b92e6b1cec: 4.293092322889781
+2026-04-08 15:19:06,074 - INFO - Matching complete. Found 0 matches
+2026-04-08 15:32:15,667 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in get_public_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:32:16,906 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in get_registered_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:32:16,906 - INFO - Processing mesh fallback with 2 registered and 1 public cases
+2026-04-08 15:32:16,964 - INFO - Distance for case a26b798b-b3fc-4fe6-92f5-85b92e6b1cec: 1.909337595494664
+2026-04-08 15:32:16,967 - INFO - MESH FALLBACK MATCH: Public case a26b798b-b3fc-4fe6-92f5-85b92e6b1cec -> Registered case 4b314050-c54c-4fa3-bf5d-b96226d08ebf (distance: 1.909337595494664)
+2026-04-08 15:32:16,967 - INFO - Matching complete. Found 1 matches
+2026-04-08 15:42:33,507 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in get_registered_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:43:44,079 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in get_public_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:43:44,748 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in get_registered_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:43:44,749 - INFO - Processing mesh fallback with 2 registered and 1 public cases
+2026-04-08 15:43:44,775 - INFO - Distance for case bde6ec8f-17ba-44af-a2a4-933d7916feb8: 2.636224796473018
+2026-04-08 15:43:44,780 - INFO - MESH FALLBACK MATCH: Public case bde6ec8f-17ba-44af-a2a4-933d7916feb8 -> Registered case d4a7fcd6-c63a-4d05-9f82-29398e88216e (distance: 2.636224796473018)
+2026-04-08 15:43:44,781 - INFO - Matching complete. Found 1 matches
+2026-04-08 15:46:43,717 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in get_registered_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:51:44,417 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in get_public_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:51:45,257 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in get_registered_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 15:51:45,258 - INFO - Processing mesh fallback with 2 registered and 1 public cases
+2026-04-08 15:51:45,284 - INFO - Distance for case 0ab4bc27-0987-4197-8745-aacdbed79882: 2.9226268106995805
+2026-04-08 15:51:45,289 - INFO - MESH FALLBACK MATCH: Public case 0ab4bc27-0987-4197-8745-aacdbed79882 -> Registered case 55564170-9faa-4c5b-8057-b8387856f88b (distance: 2.9226268106995805)
+2026-04-08 15:51:45,290 - INFO - Matching complete. Found 1 matches
+2026-04-08 16:14:34,126 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in get_public_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 296, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 16:14:34,718 - ERROR - Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in get_registered_embedding_data
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\series.py", line 4943, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1422, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\match_algo.py", line 333, in <lambda>
+    df["face_embedding"] = df["face_embedding"].apply(lambda x: json.loads(x) if x else None)
+                                                                ^^^^^^^^^^^^^
+  File "C:\Users\aryan\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not list
+
+2026-04-08 16:14:34,718 - INFO - Processing mesh fallback with 2 registered and 1 public cases
+2026-04-08 16:14:34,726 - INFO - Distance for case ec8dc8dd-83c3-4412-b7e2-1db6fddfaa3d: 1.7599376116800365
+2026-04-08 16:14:34,731 - INFO - MESH FALLBACK MATCH: Public case ec8dc8dd-83c3-4412-b7e2-1db6fddfaa3d -> Registered case e2591847-1544-40a8-a795-40ba056ce5fd (distance: 1.7599376116800365)
+2026-04-08 16:14:34,732 - INFO - Matching complete. Found 1 matches

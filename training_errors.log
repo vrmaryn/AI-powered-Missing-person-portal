@@ -1,0 +1,608 @@
+2026-02-23 17:55:13,494 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:13,496 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:14,838 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:14,839 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:40,833 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:40,834 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:44,345 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:44,347 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:45,467 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:45,468 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:45,703 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:55:45,706 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:23,846 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:23,847 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:25,526 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:25,528 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:25,741 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:25,742 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:25,946 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:25,948 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:26,162 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:26,163 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:26,343 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:26,346 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:26,561 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:26,562 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:26,772 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:26,773 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:27,656 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:56:27,658 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:57:05,746 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:57:05,747 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:57:07,034 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:57:07,036 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:57:07,242 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:57:07,243 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:57:07,423 - ERROR - Error in get_train_data: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
+2026-02-23 17:57:07,426 - ERROR - Error in train: Traceback (most recent call last):
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 143, in train
+    labels, key_pts = get_train_data(submitted_by)
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 122, in get_train_data
+    raise e
+  File "D:\AI\Finding-missing-person-using-AI-master\pages\helper\train_model.py", line 112, in get_train_data
+    d2 = pd.DataFrame(d1.pop("face_mesh").values.tolist(), index=d1.index).rename(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\frame.py", line 855, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 520, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 835, in to_arrays
+    arr = _list_to_arrays(data)
+  File "D:\AI\Finding-missing-person-using-AI-master\venv\lib\site-packages\pandas\core\internals\construction.py", line 856, in _list_to_arrays
+    content = lib.to_object_array(data)
+  File "pandas/_libs/lib.pyx", line 3041, in pandas._libs.lib.to_object_array
+TypeError: object of type 'NoneType' has no len()
+
